@@ -8,6 +8,12 @@
            pip install -r requirements.txt   
      
 
-5. 
+5. src folder 
+    a. components
+    b. pipline
+
+6. logger.py
+7  exception.py
+8  utils.py 
           
            

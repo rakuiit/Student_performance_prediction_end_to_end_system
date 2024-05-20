@@ -18,7 +18,7 @@ def get_requirments(file_path:str)->List[str]:
 
     return requirements
 
-
+## meta data info for entire project
 setup(name='mlproject',
       version='0.0.1',
       author='Rakesh sharma',
