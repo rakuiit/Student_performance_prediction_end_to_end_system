@@ -1,0 +1,7 @@
+1. Setup github repo 
+2. Create env 
+          conda create -p venv python==3.8 -y
+          conda activate venv/
+
+          
+           
