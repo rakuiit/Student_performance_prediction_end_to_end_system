@@ -15,5 +15,12 @@
 6. logger.py
 7  exception.py
 8  utils.py 
+
+###################
+10. problem statement 
+11. EDA
+12. training 
+
+
           
            
