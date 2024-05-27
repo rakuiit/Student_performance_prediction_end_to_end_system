@@ -21,6 +21,8 @@
 11. EDA
 12. Model Training 
 13 Data injection 
+14 data tranformation
+15. model training and evaluation components 
 
           
            
