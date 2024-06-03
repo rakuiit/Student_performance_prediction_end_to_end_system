@@ -23,6 +23,8 @@
 13 Data injection 
 14 data tranformation
 15. model training and evaluation components 
+16. model pusher
+17 flask app 
 
           
            
