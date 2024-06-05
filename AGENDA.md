@@ -13,20 +13,18 @@
     b. pipline
 
 6. logger.py
-7.  exception.py
-8.  utils.py 
-
-###################
-10. Problem Statement 
-11. EDA
-12. Model Training 
-13. Data injection 
-14. data tranformation
-15. model training and evaluation components 
-16. model pusher
-17. flask app 
-18. docker file
-19. model deployment using ECR and EC2 setup 
+7. exception.py
+8. utils.py 
+9. Problem Statement 
+10. EDA
+11. Model Training 
+12. Data injection 
+13. data tranformation
+14. model training and evaluation components 
+15. model pusher
+16. flask app 
+17. docker file
+18. model deployment using ECR and EC2 setup 
 
 
           
