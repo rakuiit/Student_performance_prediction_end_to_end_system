@@ -27,5 +27,5 @@
 18. model deployment using ECR and EC2 setup 
 
 
-          
+         
            
