@@ -1,6 +1,8 @@
 # Student performance Prediction End to END project 
 
-##### Main purpose of this project to showcase End to End machine learning deployment.we will be see how we can deploy end to end ml application using ci cd pipelines and github asction uing ECR and EC2 instance.
+##### Main purpose of this project to showcase End to End machine learning deployment.
+##### we will be see how we can deploy end to end ml application using ci cd pipelines and github asction uing ECR and EC2 instance.
+##### This Project show how to deploy a Dockerized application on AWS using CI/CD with GitHub Actions. The exact steps and configurations may vary based on your specific needs and AWS services used (e.g., ECS, EKS, or Elastic Beanstalk).
 
 
 ## Approach for Project:
@@ -78,7 +80,7 @@ Link : [Flask Web Code](./app.py)
 
 We have multiple tools and tech to deploy the project on product grade ,Here I am using using CI CD pipelines and github actions uing ECR and EC2 instance.
 
-
+#### Steps:
 Docker And Workflow Set up
 Iam User Setup In AWS
 ECR Repository set up
