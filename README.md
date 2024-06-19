@@ -114,6 +114,40 @@ Run Workflow
 save this url : 211125773837.dkr.ecr.eu-north-1.amazonaws.com/student_performance
 
 #### Create EC2 machine (Ubuntu)
+#### Open EC2 and Install docker in EC2 Machine:
+
+#optional
+
+sudo apt-get update -y
+
+sudo apt-get upgrade
+
+#required
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+sudo usermod -aG docker ubuntu
+
+newgrp docker
+
+#### Configure EC2 as self-hosted runner:
+
+setting>actions>runner>new self hosted runner> choose os> then run command one by one
+
+
+#### Setup github secrets:
+
+AWS_ACCESS_KEY_ID=
+
+AWS_SECRET_ACCESS_KEY=
+
+AWS_REGION = us-east-1
+
+AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+
+ECR_REPOSITORY_NAME = simple-app
 
 
 
