@@ -86,16 +86,11 @@ jobs:
         run: |
          docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
          
-<<<<<<< HEAD
       # - name: Stop and remove container if running
       #   run: |
       #    docker ps -q --filter "name=student_performance" | grep -q . && docker stop student_performance && docker rm -fv student_performance
-=======
-      #- name: Stop and remove container if running
-      #  run: |
-      #   docker ps -q --filter "name=simpleapp" | grep -q . && docker stop simpleapp && docker rm -fv simpleapp
->>>>>>> 8656aa4c3dbaa00cc439e9d475f7ce1dce4f47c7
-       
+
+
       - name: Run Docker Image to serve users
         run: |
          docker run -d -p 8080:8080 --name=student_performance -e 'AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }}' -e 'AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }}' -e 'AWS_REGION=${{ secrets.AWS_REGION }}'  ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
