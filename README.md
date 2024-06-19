@@ -89,7 +89,38 @@ Docker Set up In EC2 instance
 App runner set up
 Run Workflow
 
+#### Docker And Workflow Set up:
 
+
+
+#### Login Into AWS
+#### Create Iam User Setup In AWS :
+
+#with specific access
+
+1. EC2 access : It is virtual machine
+
+2. ECR: Elastic Container registry to save your docker image in aws
+
+#Policy:
+
+1. AmazonEC2ContainerRegistryFullAccess
+
+2. AmazonEC2FullAccess
+
+
+#### Create ECR repo to store/save docker image :
+
+save this url : 211125773837.dkr.ecr.eu-north-1.amazonaws.com/student_performance
+
+#### Create EC2 machine (Ubuntu)
+
+
+
+
+
+
+      
 
 
 
