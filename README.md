@@ -91,9 +91,8 @@ Run Workflow
 
 #### Docker And Workflow Set up:
 
-
-
 #### Login Into AWS
+
 #### Create Iam User Setup In AWS :
 
 #with specific access
@@ -145,25 +144,20 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION = us-east-1
 
-AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI = 
 
-ECR_REPOSITORY_NAME = simple-app
-
-
-
-
-
-
-      
-
-
+ECR_REPOSITORY_NAME = 
 
 
 
 ### AWS Deployment Link :
 
 - App Link :
-[https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977)
+[http://ec2-16-170-248-108.eu-north-1.compute.amazonaws.com:8080/predictdata](http://ec2-16-170-248-108.eu-north-1.compute.amazonaws.com:8080/predictdata)
 
 
 ### Screenshot of UI:
+
+![WEBSITEUI](./screenshots/site.png)
+
+
